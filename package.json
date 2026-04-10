@@ -1,0 +1,17 @@
+{
+  "name": "qclaw-utility-api",
+  "version": "1.0.0",
+  "description": "Multi-function utility API: QR Code, Text Analysis, Encoding tools",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "qrcode": "^1.5.3"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
